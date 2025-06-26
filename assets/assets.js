@@ -39,6 +39,7 @@ import tailwind from '../assets/tailwind.png';
 import upperarrow from '../assets/upperarrow.png';
 import userimg from '../assets/user-img.jpeg';
 import website from '../assets/website.png';
+import logoimg from '../assets/logoimg.png';
 
 export const assets = {
     android,
@@ -81,5 +82,6 @@ export const assets = {
     tailwind,
     upperarrow,
     userimg,
-    website
+    website,
+    logoimg
 };
