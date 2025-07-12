@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full fixed top-0 left-0 bg-white shadow-md z-50 dark:bg-gray-400 text-white">
+    <nav className="w-full fixed top-0 left-0 bg-white shadow-md z-50 dark:bg-gray-200 text-white">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         
 
@@ -40,11 +40,11 @@ const Navbar = () => {
         </a>
 
         <ul className="hidden md:flex space-x-8 font-medium text-gray-900">
-          <li><a href="#top" className="hover:text-white transition font-poppins">Home</a></li>
-          <li><a href="#about" className="hover:text-white transition font-poppins">About Me</a></li>
-          <li><a href="#services" className="hover:text-white transition font-poppins">Services</a></li>
-          <li><a href="#work" className="hover:text-white transition font-poppins">My Work</a></li>
-          <li><a href="#contact" className="hover:text-white transition font-poppins">Contact Me</a></li>
+          <li><a href="#top" className="hover:text-indigo-600 transition font-poppins">Home</a></li>
+          <li><a href="#about" className="hover:text-indigo-600 transition font-poppins">About Me</a></li>
+          <li><a href="#services" className="hover:text-indigo-600 transition font-poppins">Services</a></li>
+          <li><a href="#work" className="hover:text-indigo-600 transition font-poppins">My Work</a></li>
+          <li><a href="#contact" className="hover:text-indigo-600 transition font-poppins">Contact Me</a></li>
         </ul>
 
         <div className="hidden md:flex items-center gap-6">

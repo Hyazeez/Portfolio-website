@@ -6,7 +6,7 @@ const About = () => {
 return (
     <div id='about' className='px-4 py-10 text-center mt-20'>
         <h3 className='text-2xl mb-4'>Introduction</h3>
-        <h1 className='text-4xl font-bold'>About Me</h1>
+        <h1 className='text-5xl font-bold'>About Me</h1>
 
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='sm:w-110'>
@@ -39,7 +39,17 @@ return (
                         </li>
                     ))}
                 </ul>
-                <h3>Technologies I work with</h3>
+                <h3 className='my-6 text-xl font-medium text-black'>Technologies I Work With</h3>
+                <ul className='flex flex-wrap justify-center sm:justify-start gap-4'>
+                    {toolsData.map(({ name, tool }, index) => (
+                    <li
+                        key={index} title={name}
+                        className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:bg-lightHover hover:-translate-y-1 transition-all duration-500 hover:shadow-md hover:shadow-black/20'
+                    >
+                        <Image src={tool} alt={name} className='w-6 sm:w-7' />
+                    </li>
+                    ))}
+                </ul>
             </div>
         </div>
     </div>

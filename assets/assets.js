@@ -41,6 +41,8 @@ import userimg from '../assets/user-img.jpeg';
 import website from '../assets/website.png';
 import logoimg from '../assets/logoimg.png';
 import handicon from '../assets/hand.png';
+import cloud from '../assets/cloud.png';
+import visuals from '../assets/visuals.png';
 
 export const assets = {
     android,
@@ -85,97 +87,10 @@ export const assets = {
     userimg,
     website,
     logoimg,
-    handicon
+    handicon,
+    cloud,
+    visuals
 };
-
-export const workData = [
-    {
-        id: 1,
-        title: 'Portfolio Project',
-        description: 'A personal portfolio website showcasing my skills and projects.',
-        image: assets.website,
-    },
-    {
-        id: 2,
-        title: 'E-commerce Platform',
-        description: 'An e-commerce platform built with React and Node.js.',
-        image: assets.react,
-    },
-    {
-        id: 3,
-        title: 'Mobile App Development',
-        description: 'A mobile application developed using React Native.',
-        image: assets.android,
-    },
-    {
-        id: 4,
-        title: 'Data Visualization Dashboard',
-        description: 'A dashboard for visualizing data using Power BI.',
-        image: assets.powerbi,
-    },
-    {
-        id: 6,
-        title: 'Full Stack Application',
-        description: 'A full stack application using MERN stack.',
-        image: assets.mongodb,
-    },
-    {
-        id: 8,
-        title: 'Cloud Deployment',
-        description: 'A project deployed on AWS using Docker and Kubernetes.',
-        image: assets.aws,
-    },
-    {
-        id: 9,
-        title: 'Angular Application',
-        description: 'A web application built with Angular and TypeScript.',
-        image: assets.angular,
-    },
-    {
-        id: 10,
-        title: 'Spring Boot Project',
-        description: 'A project combining Spring Boot, Spring AI, and React.',
-        image: assets.springboot,
-    }
-]
-
-export const servicesData = [
-    {
-        id: 1,
-        title: 'Frontend Development',
-        description: 'Building responsive and modern websites using the latest technologies.',
-        icon: assets.web,
-        link: ''
-    },
-    {
-        id: 2,
-        title: 'Backend Development',
-        description: 'Creating robust server-side applications with Node.js and Express.',
-        icon: assets.nodejs,
-        link: ''
-    },
-    {
-        id: 3,
-        title: 'Mobile App Development',
-        description: 'Creating user-friendly mobile applications for Android and iOS.',
-        icon: assets.android,
-        link: ''
-    },
-    {
-        id: 4,
-        title: 'Data Visualization',
-        description: 'Creating interactive and visually appealing data representations.',
-        icon: assets.powerbi,
-        link: ''
-    },
-    {
-        id: 5,
-        title: 'Cloud Solutions',
-        description: 'Implementing cloud-based solutions for scalability and performance.',
-        icon: assets.aws,
-        link: ''
-    }
-]
 
 export const infoList = [
     {
@@ -196,16 +111,16 @@ export const infoList = [
 ]
 
 export const toolsData = [
-    assets.angular,
-    assets.aws,
-    assets.docker,
-    assets.firebase,
-    assets.git,
-    assets.nextjs,
-    assets.react,
-    assets.nodejs,
-    assets.powerbi,
-    assets.html,
-    assets.css,
-    assets.js
-]
+    { name: 'Angular', tool: assets.angular },
+    { name: 'AWS', tool: assets.aws },
+    { name: 'Docker', tool: assets.docker },
+    { name: 'Firebase', tool: assets.firebase },
+    { name: 'Git', tool: assets.git },
+    { name: 'Next.js', tool: assets.nextjs },
+    { name: 'React', tool: assets.react },
+    { name: 'Node.js', tool: assets.nodejs },
+    { name: 'Power BI', tool: assets.powerbi },
+    { name: 'HTML', tool: assets.html },
+    { name: 'CSS', tool: assets.css },
+    { name: 'JavaScript', tool: assets.js },
+];
