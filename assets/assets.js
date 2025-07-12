@@ -176,3 +176,36 @@ export const servicesData = [
         link: ''
     }
 ]
+
+export const infoList = [
+    {
+        icon: assets.code,
+        title: 'Languages',
+        description: 'HTML, CSS, JavaScript, ReactJs, NextJs, NodeJs, Angular, Docker, AWS'
+    },
+    {
+        icon: assets.education,
+        title: 'Education',
+        description: 'BSc(HONS) Computer Science - University of Kelaniya(UG)'
+    },
+    {
+        icon: assets.project,
+        title: 'Projects',
+        description: 'Built more than 5 projects'
+    }
+]
+
+export const toolsData = [
+    assets.angular,
+    assets.aws,
+    assets.docker,
+    assets.firebase,
+    assets.git,
+    assets.nextjs,
+    assets.react,
+    assets.nodejs,
+    assets.powerbi,
+    assets.html,
+    assets.css,
+    assets.js
+]
