@@ -43,6 +43,13 @@ import logoimg from '../assets/logoimg.png';
 import handicon from '../assets/hand.png';
 import cloud from '../assets/cloud.png';
 import visuals from '../assets/visuals.png';
+import uniimg from '../assets/uniimg.png';
+import netflex from '../assets/netflex.png';
+import reactnative from '../assets/react-native.png';
+import boostrap from '../assets/boostrap.png';
+import php from '../assets/php.png';
+import portfolio from '../assets/portfolio.png';
+import furever from '../assets/furever.png';
 
 export const assets = {
     android,
@@ -89,7 +96,14 @@ export const assets = {
     logoimg,
     handicon,
     cloud,
-    visuals
+    visuals,
+    uniimg,
+    netflex,
+    reactnative,
+    boostrap,
+    php,
+    portfolio,
+    furever
 };
 
 export const infoList = [
@@ -123,4 +137,50 @@ export const toolsData = [
     { name: 'HTML', tool: assets.html },
     { name: 'CSS', tool: assets.css },
     { name: 'JavaScript', tool: assets.js },
+    { name: 'Springboot', tool: assets.springboot },
+    { name: 'React-Native', tool: assets.reactnative },
+    { name: 'Boostrap', tool: assets.boostrap},
+    { name: 'PHP', tool: assets.php},
+    { name: 'MySQL', tool: assets.mysql}
 ];
+
+export const workData = [
+    {
+        title: 'FurEver pet adoption  charity web application',
+        description: 'A pet adoption website with a user-friendly interface, built using HTML, CSS,JavaScript,Bootstrap and PHP.',
+        bgimage: assets.furever,
+        github: 'https://github.com/Hyazeez/4EVER-Charity-website-for-animal-rescue'
+    },
+    {
+        title: 'Frontend Project - Informational & institutional website',
+        description: 'A responsive website for a university, built using Reactjs,Boostrap and emial service API for contact form.',
+        bgimage: assets.uniimg,
+        github: 'https://university-responsive-website.vercel.app/'
+    },
+    {
+        title: 'Realtime dynamic fullstack web application - Netflex',
+        description: 'A clone of the Netflix website, built using Reactjs, Firebase and movie database service API called TMDB.',
+        bgimage: assets.netflex,
+        github: 'https://github.com/Hyazeez/Netflix_clone'
+        
+    },
+    {
+        title: 'Mobile application development- College-app',
+        description: 'A mobile application for a college, built using React Native.',
+        bgimage: assets.netflex,
+        github: 'https://github.com/Hyazeez/Collage-app'
+    },
+    {
+        title: 'Realtime blog fullstack web application - BlogNet',
+        description: 'A fullstack blog application with user authentication, built using Angular, Springboot and MySQL.',
+        bgimage: assets.netflex,
+        github: ''
+    },
+    {
+        title: 'Responsive personal portfolio website',
+        description: 'A personal portfolio website showcasing my skills and projects, built using Next.js and Tailwind CSS.',
+        bgimage: assets.portfolio,
+        github: 'https://github.com/Hyazeez/Portfolio-website'
+    },
+
+]
