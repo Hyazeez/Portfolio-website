@@ -50,6 +50,7 @@ import boostrap from '../assets/boostrap.png';
 import php from '../assets/php.png';
 import portfolio from '../assets/portfolio.png';
 import furever from '../assets/furever.png';
+import blognet from '../assets/blognet.png';
 
 export const assets = {
     android,
@@ -103,7 +104,8 @@ export const assets = {
     boostrap,
     php,
     portfolio,
-    furever
+    furever,
+    blognet
 };
 
 export const infoList = [
@@ -161,7 +163,7 @@ export const workData = [
         title: 'Realtime dynamic fullstack web application - Netflex',
         description: 'A clone of the Netflix website, built using Reactjs, Firebase and movie database service API called TMDB.',
         bgimage: assets.netflex,
-        github: 'https://github.com/Hyazeez/Netflix_clone'
+        github: 'https://netflexcloneapp.netlify.app/'
         
     },
     {
@@ -173,14 +175,14 @@ export const workData = [
     {
         title: 'Realtime blog fullstack web application - BlogNet',
         description: 'A fullstack blog application with user authentication, built using Angular, Springboot and MySQL.',
-        bgimage: assets.netflex,
+        bgimage: assets.blognet,
         github: ''
     },
     {
         title: 'Responsive personal portfolio website',
         description: 'A personal portfolio website showcasing my skills and projects, built using Next.js and Tailwind CSS.',
         bgimage: assets.portfolio,
-        github: 'https://github.com/Hyazeez/Portfolio-website'
+        github: 'https://portforliowebsite.netlify.app/'
     },
 
 ]
