@@ -51,6 +51,11 @@ import php from '../assets/php.png';
 import portfolio from '../assets/portfolio.png';
 import furever from '../assets/furever.png';
 import blognet from '../assets/blognet.png';
+import powerbiproject from '../assets/powerbiproject.png';
+import zylocart from '../assets/zylocart.png';
+import sqlserver from '../assets/sqlserver.png';
+import frontend from '../assets/frontend.png';
+import backend from '../assets/backend.png';
 
 export const assets = {
     android,
@@ -105,7 +110,12 @@ export const assets = {
     php,
     portfolio,
     furever,
-    blognet
+    blognet,
+    powerbiproject,
+    zylocart,
+    sqlserver,
+    frontend,
+    backend,
 };
 
 export const infoList = [
@@ -140,10 +150,13 @@ export const toolsData = [
     { name: 'CSS', tool: assets.css },
     { name: 'JavaScript', tool: assets.js },
     { name: 'Springboot', tool: assets.springboot },
-    { name: 'React-Native', tool: assets.reactnative },
     { name: 'Boostrap', tool: assets.boostrap},
     { name: 'PHP', tool: assets.php},
-    { name: 'MySQL', tool: assets.mysql}
+    { name: 'MySQL', tool: assets.mysql},
+    { name: 'Microsoft SQL Server', tool: assets.sqlserver},
+    { name: 'MongODB', tool: assets.mongodb},
+    { name: 'Express.js', tool: assets.expressjs},
+
 ];
 
 export const workData = [
@@ -167,22 +180,34 @@ export const workData = [
         
     },
     {
-        title: 'Mobile application development- College-app',
-        description: 'A mobile application for a college, built using React Native.',
-        bgimage: assets.netflex,
-        github: 'https://github.com/Hyazeez/Collage-app'
+        title: 'Pizza Sales Power BI Dashboard',
+        description: 'An interactive Power BI dashboard analyzing pizza sales performance using Microsoft SQL Server as the backend.',
+        bgimage: assets.powerbiproject,
+        github: 'https://github.com/Hyazeez/Pizza-Sales-Power-Bi-Dashboard'
     },
     {
         title: 'Realtime blog fullstack web application - BlogNet',
         description: 'A fullstack blog application with user authentication, built using Angular, Springboot and MySQL.',
         bgimage: assets.blognet,
-        github: ''
+        github: 'https://github.com/Hyazeez/BlogNet-web-Application'
     },
     {
         title: 'Responsive personal portfolio website',
         description: 'A personal portfolio website showcasing my skills and projects, built using Next.js and Tailwind CSS.',
         bgimage: assets.portfolio,
         github: 'https://portforliowebsite.netlify.app/'
+    },
+    {
+        title: 'ZyloCart E-Commerce Web Application',
+        description: 'A full-featured e-commerce web application built with Reactjs,Node.js,MongoDB,Expressjs and Tailwind CSS.',
+        bgimage: assets.zylocart,
+        github: 'https://github.com/Hyazeez/ZyloCart-E-commerce-web-application'
+    },
+    {
+        title: 'DeepSeek Clone Web Application',
+        description: 'A fully functional clone of DeepSeek.ai built with Next.js, Tailwind CSS, and Gemini Pro API.',
+        bgimage: assets.zylocart,
+        github: 'https://github.com/Hyazeez/DeepSeek-Clone-2.0'
     },
 
 ]
