@@ -56,6 +56,7 @@ import zylocart from '../assets/zylocart.png';
 import sqlserver from '../assets/sqlserver.png';
 import frontend from '../assets/frontend.png';
 import backend from '../assets/backend.png';
+import chatbot from '../assets/chatbot.png';
 
 export const assets = {
     android,
@@ -116,6 +117,7 @@ export const assets = {
     sqlserver,
     frontend,
     backend,
+    chatbot,
 };
 
 export const infoList = [
@@ -195,7 +197,7 @@ export const workData = [
         title: 'Responsive personal portfolio website',
         description: 'A personal portfolio website showcasing my skills and projects, built using Next.js and Tailwind CSS.',
         bgimage: assets.portfolio,
-        github: 'https://portforliowebsite.netlify.app/'
+        github: 'https://azeezshaban.netlify.app/'
     },
     {
         title: 'ZyloCart E-Commerce Web Application',
@@ -204,10 +206,10 @@ export const workData = [
         github: 'https://github.com/Hyazeez/ZyloCart-E-commerce-web-application'
     },
     {
-        title: 'DeepSeek Clone Web Application',
-        description: 'A fully functional clone of DeepSeek.ai built with Next.js, Tailwind CSS, and Gemini Pro API.',
-        bgimage: assets.zylocart,
-        github: 'https://github.com/Hyazeez/DeepSeek-Clone-2.0'
+        title: 'Personal AI Chatbot Application',
+        description: 'A fully functional intelligent AI chatbot application built with React.js, CSS and Gemini Pro API.',
+        bgimage: assets.chatbot,
+        github: 'https://github.com/Hyazeez/AI-Chatbot'
     },
 
 ]
