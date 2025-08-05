@@ -172,7 +172,7 @@ export const workData = [
         title: 'Frontend Project - Informational & institutional website',
         description: 'A responsive website for a university, built using Reactjs,Boostrap and emial service API for contact form.',
         bgimage: assets.uniimg,
-        github: 'https://university-responsive-website.vercel.app/'
+        github: 'https://future-edge-university.vercel.app/'
     },
     {
         title: 'Realtime dynamic fullstack web application - Netflex',
