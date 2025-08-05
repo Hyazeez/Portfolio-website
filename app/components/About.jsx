@@ -11,7 +11,7 @@ return (
 
         <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.8}} className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='sm:w-110'>
-                <motion.div initial={{opacity: 0, scale: 0.9}} whileInView={{opacity: 1, scale:1}} transition={{duration: 0.6}} className='sm:w-90 w-full rounded-3xl mx-25'>
+                <motion.div initial={{opacity: 0, scale: 0.9}} whileInView={{opacity: 1, scale:1}} transition={{duration: 0.6}} className='sm:w-90 w-full rounded-3xl mx-auto'>
                 <Image 
                     src={assets.userimg} 
                     alt="Portrait of Azeez Shaban" 

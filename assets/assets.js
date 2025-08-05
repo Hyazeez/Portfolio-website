@@ -37,7 +37,7 @@ import springboot from '../assets/springboot.png';
 import sun from '../assets/sun.png';
 import tailwind from '../assets/tailwind.png';
 import upperarrow from '../assets/upperarrow.png';
-import userimg from '../assets/user-img.jpeg';
+import userimg from '../assets/userimg.jpeg';
 import website from '../assets/website.png';
 import logoimg from '../assets/logoimg.png';
 import handicon from '../assets/hand.png';
@@ -166,7 +166,7 @@ export const workData = [
         title: 'FurEver pet adoption  charity web application',
         description: 'A pet adoption website with a user-friendly interface, built using HTML, CSS,JavaScript,Bootstrap and PHP.',
         bgimage: assets.furever,
-        github: 'https://github.com/Hyazeez/4EVER-Charity-website-for-animal-rescue'
+        github: 'https://furever.infinityfreeapp.com/'
     },
     {
         title: 'Frontend Project - Informational & institutional website',
