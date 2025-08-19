@@ -57,6 +57,8 @@ import sqlserver from '../assets/sqlserver.png';
 import frontend from '../assets/frontend.png';
 import backend from '../assets/backend.png';
 import chatbot from '../assets/chatbot.png';
+import summerizer from '../assets/summerizer.png';
+import github from '../assets/github.png';
 
 export const assets = {
     android,
@@ -118,6 +120,8 @@ export const assets = {
     frontend,
     backend,
     chatbot,
+    summerizer,
+    github
 };
 
 export const infoList = [
@@ -158,6 +162,7 @@ export const toolsData = [
     { name: 'Microsoft SQL Server', tool: assets.sqlserver},
     { name: 'MongODB', tool: assets.mongodb},
     { name: 'Express.js', tool: assets.expressjs},
+    { name: 'Python', tool: assets.python}
 
 ];
 
@@ -166,49 +171,57 @@ export const workData = [
         title: 'FurEver pet adoption  charity web application',
         description: 'A pet adoption website with a user-friendly interface, built using HTML, CSS,JavaScript,Bootstrap and PHP.',
         bgimage: assets.furever,
-        github: 'https://furever.infinityfreeapp.com/'
+        url: 'https://furever.infinityfreeapp.com/',
+        github: 'https://github.com/Hyazeez/FurEver-Charity-website-for-animal-rescue'
     },
     {
         title: 'Frontend Project - Informational & institutional website',
         description: 'A responsive website for a university, built using Reactjs,Boostrap and emial service API for contact form.',
         bgimage: assets.uniimg,
-        github: 'https://future-edge-university.vercel.app/'
+        url: 'https://future-edge-university.vercel.app/',
+        github: 'https://github.com/Hyazeez/University-responsive-website'
     },
     {
         title: 'Realtime dynamic fullstack web application - Netflex',
         description: 'A clone of the Netflix website, built using Reactjs, Firebase and movie database service API called TMDB.',
         bgimage: assets.netflex,
-        github: 'https://netflexcloneapp.netlify.app/'
+        url: 'https://netflexcloneapp.netlify.app/',
+        github: 'https://github.com/Hyazeez/Netflix_clone'
         
     },
     {
         title: 'Pizza Sales Power BI Dashboard',
         description: 'An interactive Power BI dashboard analyzing pizza sales performance using Microsoft SQL Server as the backend.',
         bgimage: assets.powerbiproject,
+        url: 'https://github.com/Hyazeez/Pizza-Sales-Power-Bi-Dashboard',
         github: 'https://github.com/Hyazeez/Pizza-Sales-Power-Bi-Dashboard'
     },
     {
         title: 'Realtime blog fullstack web application - BlogNet',
         description: 'A fullstack blog application with user authentication, built using Angular, Springboot and MySQL.',
         bgimage: assets.blognet,
+        url: 'https://github.com/Hyazeez/BlogNet-web-Application',
         github: 'https://github.com/Hyazeez/BlogNet-web-Application'
     },
     {
         title: 'Responsive personal portfolio website',
         description: 'A personal portfolio website showcasing my skills and projects, built using Next.js and Tailwind CSS.',
         bgimage: assets.portfolio,
-        github: 'https://azeezshaban.netlify.app/'
+        url: 'https://azeezshaban.netlify.app/',
+        github: 'https://github.com/Hyazeez/Portfolio-website'
     },
     {
         title: 'ZyloCart E-Commerce Web Application',
         description: 'A full-featured e-commerce web application built with Reactjs,Node.js,MongoDB,Expressjs and Tailwind CSS.',
         bgimage: assets.zylocart,
+        url: 'https://github.com/Hyazeez/ZyloCart-E-commerce-web-application',
         github: 'https://github.com/Hyazeez/ZyloCart-E-commerce-web-application'
     },
     {
         title: 'Personal AI Chatbot Application',
         description: 'A fully functional intelligent AI chatbot application built with React.js, CSS and Gemini Pro API.',
         bgimage: assets.chatbot,
+        url: 'https://aichatbotnew.netlify.app',
         github: 'https://github.com/Hyazeez/AI-Chatbot'
     },
 
