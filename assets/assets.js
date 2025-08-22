@@ -59,6 +59,7 @@ import backend from '../assets/backend.png';
 import chatbot from '../assets/chatbot.png';
 import summerizer from '../assets/summerizer.png';
 import github from '../assets/github.png';
+import flask from '../assets/flask.png'
 
 export const assets = {
     android,
@@ -121,7 +122,8 @@ export const assets = {
     backend,
     chatbot,
     summerizer,
-    github
+    github,
+    flask,
 };
 
 export const infoList = [
@@ -162,7 +164,8 @@ export const toolsData = [
     { name: 'Microsoft SQL Server', tool: assets.sqlserver},
     { name: 'MongODB', tool: assets.mongodb},
     { name: 'Express.js', tool: assets.expressjs},
-    { name: 'Python', tool: assets.python}
+    { name: 'Python', tool: assets.python},
+    { name: 'Flask', tool: assets.flask}
 
 ];
 
@@ -224,5 +227,13 @@ export const workData = [
         url: 'https://aichatbotnew.netlify.app',
         github: 'https://github.com/Hyazeez/AI-Chatbot'
     },
+    {
+        title: 'AI Summerizer Tool (Text,PDF & YouTube)',
+        description: 'An intelligent summarization tool built with ReactJS, Python, Flask, and OpenRouter API that generates concise summaries from raw text, PDF documents, and YouTube transcripts.',
+        bgimage: assets.summerizer,
+        url: '',
+        github: 'https://github.com/Hyazeez/AI-Summerizer-Tool'
+    },
+
 
 ]
