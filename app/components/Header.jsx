@@ -25,7 +25,7 @@ const Header = () => {
           Contact Me
           <Image src={assets.arrow} alt="Arrow" className="text-black text-sm w-6" />
         </motion.a>
-        <motion.a initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 1.2}} href="#sample-resume.pdf" download className="bg-white border-solid border-2 text-black px-4 py-2 rounded-full hover:bg-gray-200 transition flex items-center gap-2">
+        <motion.a initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}} transition={{duration: 0.6, delay: 1.2}} href="/resume.pdf" download className="bg-white border-solid border-2 text-black px-4 py-2 rounded-full hover:bg-gray-200 transition flex items-center gap-2">
           My Resume
           <Image src={assets.download} alt="Arrow" className="text-black text-sm w-6" />
         </motion.a>
